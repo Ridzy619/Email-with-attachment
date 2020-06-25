@@ -53,5 +53,6 @@ with open('exchangelib_email.py', 'rb') as f:
 attachments.append(('exchangelib_email.py', content))
 
 # Send email
-send_email(account, 'Sent With the Automation', 'Just to be sure it works', ['ridzy619@gmail.com', 'henry4ally2k@gmail.com'],
+send_email(account, 'Sent With the Automation', 'Just to be sure it works',
+           ['xyz@test.com'],
            attachments=attachments)
